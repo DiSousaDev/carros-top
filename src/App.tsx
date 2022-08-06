@@ -1,10 +1,10 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
+import './assets/styles/custom.scss'
 import './App.css'
+import Navbar from './Navbar'
 
 function App() {
   return (
-    <h1>Projeto Carros TOP</h1>
+    <Navbar />
   )
 }
 
