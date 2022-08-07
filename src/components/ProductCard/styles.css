@@ -1,0 +1,48 @@
+.img-card {
+    padding: 0 22px 15px 22px;
+    text-align: center;
+  }
+  
+  .img-card h1 {
+    text-align: center;
+    font-size: 18px;
+  }
+
+  .img-card img {
+    width: 221px;
+    height: 165px;
+  }
+  
+  .img-card p {
+    font-style: italic;
+    text-align: left;
+    font-size: 14px;
+    color: #585858;
+    width: 256px;
+    padding: 14px 0 38px 0;
+  }
+  
+  .img-card button {
+    width: 256px;
+    height: 40px;
+  }
+
+  @media (min-width: 576px) {
+    .img-card {
+      padding: 0 18px 15px 18px;
+    }
+
+    .img-card button {
+      width: 100%;
+    }
+
+    .img-card p {
+      font-size: 12px;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .img-card p {
+      font-size: 14px;
+    }
+  }

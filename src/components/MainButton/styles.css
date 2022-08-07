@@ -1,0 +1,9 @@
+.btn {
+    text-transform: uppercase;
+    height: 40px;
+    color: #FFF;
+}
+
+.btn:hover {
+    color: #FFF;
+}

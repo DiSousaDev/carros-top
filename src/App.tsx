@@ -1,13 +1,13 @@
 import './assets/styles/custom.scss'
 import './App.css'
 import Navbar from './components/Navbar'
-import Home from './pages/Home'
+import CarList from './pages/CarList'
 
 function App() {
   return (
     <>
       <Navbar />
-      <Home />
+      <CarList />
     </>
   )
 }
