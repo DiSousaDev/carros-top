@@ -1,8 +1,13 @@
 .home-container {
     padding: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
 
 .home-content-container {  
+    width: 320px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -13,16 +18,6 @@
 
 .home-img-container {
     padding: 60px 28px 35px 28px;
-}
-
-.home-img-container img {
-    width: 100%;
-    height: auto;
-}
-
-.home-text-container {
-    width: 270px;
-    text-align: center;
 }
 
 .home-text-container h1 {
@@ -44,13 +39,12 @@
     align-items: center;    
     background-color: #EDEDED;
     border-radius: 10px;
-    width: 100%;
+    width: 320px;
     height: 125px;
 }
 
 .home-button-container button {
     text-transform: uppercase;
-    width: 175px;
     height: 40px;
     color: #FFF;
     margin-bottom: 9px;
@@ -62,4 +56,103 @@
 
 .home-button-container p {
     font-size: 18px;
+}
+
+@media (min-width: 576px) {
+    .home-content-container {
+        width: 550px;
+    }
+
+    .home-img-container img {
+        width: 333px;
+        height: auto;
+    }
+
+    .home-text-container h1 {
+        font-size: 36px;
+    }
+
+    .home-text-container p {
+        width: 420px;
+        font-size: 18px;
+        margin-bottom: 40px;
+    }
+
+    .home-button-container {
+        width: 550px;
+        flex-direction: row;
+        justify-content: left;
+        padding-left: 85px;
+    }
+
+    .home-button-container button {
+        margin-bottom: 0px;
+    }
+
+    .home-button-container p {
+        margin-left: 16px;
+    }
+}
+
+@media (min-width: 768px) {
+    .home-content-container {
+        width: 740px;
+    }
+
+    .home-text-container p {
+        width: 420px;
+        margin-bottom: 75px;
+    }
+
+    .home-button-container {
+        width: 740px;
+    }
+
+}
+
+@media (min-width: 992px) {
+    .home-content-container {
+        width: 952px;
+    }
+
+    .home-img-container img {
+        width: 455px;
+        height: auto;
+    }
+
+    .home-text-container h1 {
+        font-size: 36px;
+    }
+
+    .home-text-container p {
+        width: 420px;
+        margin-bottom: 125px;
+    }
+
+    .home-button-container {
+        width: 952px;
+    }
+}
+
+@media (min-width: 1280px) {
+
+    .home-content-container {
+        width: 980px;
+        text-align: left;
+        flex-direction: row-reverse;
+        margin-bottom: 30px;
+    }
+
+    .home-button-container {
+        width: 980px;
+    }
+
+    .home-text-container h1 {
+        margin-bottom: 0;
+    }
+
+    .home-text-container p {
+        margin-bottom: 0px;
+    }
+
 }
